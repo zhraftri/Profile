@@ -5,32 +5,45 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Profile | </title>
-   <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
    <script src="https://cdn.tailwindcss.com"></script>
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css" rel="stylesheet" type="text/css" />
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-gradient-to-r from-purple-300 to-purple-400 h-screen w-full flex justify-center items-center">
-   <div class="py-10 px-32  bg-gray-300 flex flex-col justify-center items-center">
-      <div class="avatar">
-         <div class="w-24 rounded-full">
-            <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+<body
+   class="bg-gradient-to-tr from-[#A35C7A] to-[#C890A7] min-h-screen w-full flex justify-center items-center text-[#212121]">
+   <img src="Group 4.png" class="absolute inset-0 w-full h-full bg-cover bg-center z-0 opacity-50" alt="">
+   <div class="container mx-auto max-w-[500px] py-10 z-10 drop-shadow-2xl relative rounded-lg  flex flex-col justify-center items-center bg-[radial-gradient(circle,#FBF5E5,#E1DBCB)]"
+   >
+      <img src="couqet.png" class="absolute -top-10 -right-10 w-32 h-32" alt="">
+      <!-- Avatar -->
+      <div class="flex flex-col items-center">
+         <div class="avatar ">
+            <div class="w-24 rounded-full">
+               <img src="ea21052f12b135e2f343b0c5ca8aeabc.png" />
+            </div>
          </div>
+         <h3 class="text-4xl font-bold text-center mt-4 mb-1">CIKURUYUK</h3>
+         <p>KERR</p>
       </div>
-      <h3 class="text-4xl font-bold text-center mt-4">CIKURUYUK</h3>
-      <p>KERR</p>
-      <div class="divider"></div>
-      <h3 class="text-3xl font-bold text-center mt-4">Profile</h3>
-      <p>Name: Zahra Putri</p>
-      <p>Age: 91</p>
-      <p>Phone: +6287898048001</p>
-      <p>Email: Jakarta, Indonesia</p>
-      
-      <div class="divider"></div>
-      <div class="flex">
-         <i class="bi bi-instagram" style="font-size: 2rem;"></i>
-         <i class="bi bi-whatsapp"></i>
-         <i class="bi bi-twitter-x"></i>
+      <div class="divider divider-secondary px-10 opacity-50 h-px"></div>
+      <!-- PROFILE -->
+      <div class="flex flex-col items-center">
+         <h3 class="text-3xl font-bold text-center mb-1">Profile</h3>
+         <p><span class="font-bold">Name:</span> Zahra Putri </p>
+         <p><span class="font-bold">Age:</span> 91</p>
+         <p><span class="font-bold">Phone:</span> +6287898048001</p>
+         <p><span class="font-bold">Email:</span> Jakarta, Indonesia</p>
+      </div>
+      <div class="divider divider-secondary px-10 opacity-50 h-px"></div>
+      <!-- ICON -->
+      <div class="flex gap-10 justify-center items-center">
+         <i class="bi bi-instagram" style="font-size: 1.5rem;"></i>
+         <i class="bi bi-whatsapp" style="font-size: 1.5rem;"></i>
+         <i class="bi bi-twitter-x" style="font-size: 1.5rem;"></i>
       </div>
    </div>
 </body>
